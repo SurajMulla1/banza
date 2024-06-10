@@ -3,34 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coming Soon - Banza</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        .container {
-            text-align: center;
-        }
-        h1 {
-            font-size: 3em;
-            margin-bottom: 0.5em;
-        }
-        p {
-            font-size: 1.2em;
-        }
-    </style>
+    <title>Banza - Coming Soon</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Coming Soon</h1>
-        <p>Our website is under construction. We'll be here soon with our new awesome site.</p>
-    </div>
+    <header>
+        <div class="logo">BANZA</div>
+        <button class="btn-join">Join the Waitlist</button>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Wallets on the fly</h1>
+            <p>Transfer crypto using email-based HSM wallet even without having one.</p>
+            <button class="btn-join-hero">Join the Waitlist</button>
+        </section>
+
+        <section class="countdown">
+            <h2>All set for the beta launch in</h2>
+            <div class="timer">
+                <div class="time-unit"><span>30</span> Days</div>
+                <div class="time-unit"><span>00</span> Hours</div>
+                <div class="time-unit"><span>00</span> Minutes</div>
+                <div class="time-unit"><span>00</span> Seconds</div>
+            </div>
+        </section>
+
+        <section class="features">
+            <h3>Why you should join the waitlist!</h3>
+            <div class="feature-list">
+                <div class="feature-item">
+                    <h4>Email-based Payments</h4>
+                    <p>Transfer crypto using everyday identifier such as email ID, even to the users not having a wallet in the first place.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>Simplistic user experience</h4>
+                    <p>No more complex operations of managing seed phrases, switching blockchain networks, paying gas fees, etc. Enjoy seamless experience with fixed transaction fees and advanced cryptographic & abstraction techniques.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>Self-custodial HSM wallet</h4>
+                    <p>Provisioning a self-custodial next-gen HSM wallet to achieve institutional grade security and gold standard of private key management.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="join">
+            <h3>Join the waitlist to provision yourself HSM wallet for FREE!</h3>
+            <p>Just enter your email ID and a self-custodial HSM wallet will be provisioned for you - for free!</p>
+            <form id="join-form">
+                <input type="email" placeholder="Please enter your email ID" required>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;2024 BANZA - All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
