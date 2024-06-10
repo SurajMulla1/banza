@@ -1,0 +1,118 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a1a;
+}
+
+.logo {
+    font-size: 1.5em;
+    color: #f90;
+}
+
+.btn-join, .btn-join-hero, button[type="submit"] {
+    background-color: #f90;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+.hero {
+    margin: 50px 0;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.countdown {
+    margin: 50px 0;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.time-unit {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+
+.features {
+    margin: 50px 0;
+}
+
+.feature-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.feature-item {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.join {
+    margin: 50px 0;
+}
+
+#join-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+input[type="email"] {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #1a1a1a;
+    width: 100%;
+    text-align: center;
+    font-size: 0.8em;
+}
